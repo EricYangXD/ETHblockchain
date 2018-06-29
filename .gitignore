@@ -1,0 +1,27 @@
+# Created by IDE
+.idea/
+*.iml
+.DS_Store
+*.sublime-workspace
+
+# Created by Builder
+coverage
+dist
+
+# Node
+logs
+*.log
+npm-debug.log*
+node_modules
+.npm
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Android
+android/playground/app/gradlew
+android/playground/app/gradlew.bat
+android/playground/app/gradle/wrapper/gradle-wrapper.jar
+android/playground/app/gradle/wrapper/gradle-wrapper.properties

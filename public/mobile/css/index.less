@@ -1,0 +1,98 @@
+@import "common.less";
+
+.pdj_layout{
+      width: 100%;
+      min-width: 320px;
+      max-width: 640px;
+      margin: 0 auto;
+      .pdj_header{
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            width: 100%;
+            background: #333;
+            color: #fff;
+            position: relative;
+            a{
+                 position: absolute;
+                 right: 10px;
+                 top: 0;
+                 height: 40px;
+                 line-height: 40px;
+                 color: #fff;
+            }
+      }
+      .pdj_banner{
+           position: relative;
+           overflow: hidden;
+           ul{
+              width: 1000%;
+              overflow: hidden;
+              li{
+                  width: 10%;
+                  float: left;
+                  a{
+                      width: 100%;
+                       display: block;
+                      img{
+                          width: 100%;
+                          display: block;
+                      }
+                  }
+              }
+           }
+           .point{
+                position: absolute;
+                left: 50%;
+                bottom: 10px;
+                width: 70px;
+                margin-left: -35px;
+                li{
+                    width: 10px;
+                    height: 10px;
+                    float: left;
+                    margin-left: 10px;
+                    border: 1px solid #fff;
+                    border-radius: 50%;
+                }
+                li:nth-child(1){
+                     margin-left: 0;
+                }
+           }
+      }
+      .pdj_list{
+            li{
+                height: 40px;
+                line-height: 40px;
+                background: @mainColor;
+                color: #fff;
+                border-top: .5px solid #fff;
+                span{
+                     margin-left: 10px;
+                     font-size: 14px;
+                }
+            }
+      }
+      .pdj_bottom{
+           background: @themeColor;
+           position: fixed;
+           bottom: 0px;
+           left: 0;
+           height: 50px;
+           line-height: 50px;
+           width: 100%;
+           text-align: center;
+           a{
+               width: 90%;
+               display: block;
+               margin: 0 auto;
+               color: #fff;
+               border:1px solid #fff;
+               border-radius: 2px;
+               height: 40px;
+               line-height: 40px;
+               margin-top: 5px;
+           }
+      }
+}
+

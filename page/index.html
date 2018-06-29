@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/web3.js"></script>
+</head>
+
+<body>
+    <input type="button" value="获取账号">
+    <input type="button" value="创建账号">
+    <input type="button" value="解锁账号">
+    <input type="button" value="一键挖矿">
+    <input type="button" value="停止挖矿">
+    <script>
+        var web3 = new Web3(new Web3.providers.HttpProvider("http://127.0.0.1:8545"));
+        document.querySelectorAll("input")[0].onclick = function() {
+            //使用web3 的api 去操作节点。jsonrpc
+            console.log("获取钱包地址...");
+            web3.eth.getAccounts(function(error, result) {
+                console.log(result);
+            });
+        }
+        document.querySelectorAll("input")[1].onclick = function() {
+            console.log("创建新钱包地址...");
+            web3.personal.newAccount("123456", function(error, result) {
+                console.log(result);
+            });
+        }
+        document.querySelectorAll("input")[2].onclick = function() {
+            web3.personal.unlockAccount("0xfa9133bb93f78c12860880cd69e5e0e5a3fa9333", "123456", function(error, result) {
+                console.log("钱包解绑成功...");
+                console.log(result);
+            });
+        }
+        document.querySelectorAll("input")[3].onclick = function() {
+            console.log("开始挖矿...");
+            web3.miner.start();
+        }
+        document.querySelectorAll("input")[4].onclick = function() {
+            console.log("停止挖矿...");
+            web3.miner.stop();
+        }
+    </script>
+</body>
+
+</html>

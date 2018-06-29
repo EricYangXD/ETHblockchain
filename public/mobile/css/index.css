@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  text-decoration: none;
+}
+input {
+  border: none;
+  -webkit-appearance: none;
+  outline: none;
+}
+html,
+body {
+  background: #207047;
+}
+.pdj_layout {
+  width: 100%;
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.pdj_layout .pdj_header {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  position: relative;
+}
+.pdj_layout .pdj_header a {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+}
+.pdj_layout .pdj_banner {
+  position: relative;
+  overflow: hidden;
+}
+.pdj_layout .pdj_banner ul {
+  width: 1000%;
+  overflow: hidden;
+}
+.pdj_layout .pdj_banner ul li {
+  width: 10%;
+  float: left;
+}
+.pdj_layout .pdj_banner ul li a {
+  width: 100%;
+  display: block;
+}
+.pdj_layout .pdj_banner ul li a img {
+  width: 100%;
+  display: block;
+}
+.pdj_layout .pdj_banner .point {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  width: 70px;
+  margin-left: -35px;
+}
+.pdj_layout .pdj_banner .point li {
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-left: 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.pdj_layout .pdj_banner .point li:nth-child(1) {
+  margin-left: 0;
+}
+.pdj_layout .pdj_list li {
+  height: 40px;
+  line-height: 40px;
+  background: #207047;
+  color: #fff;
+  border-top: .5px solid #fff;
+}
+.pdj_layout .pdj_list li span {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.pdj_layout .pdj_bottom {
+  background: #207047;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  text-align: center;
+}
+.pdj_layout .pdj_bottom a {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 5px;
+}
+/*# sourceMappingURL=index.css.map */

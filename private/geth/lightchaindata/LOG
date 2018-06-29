@@ -1,0 +1,16 @@
+=============== Jun 29, 2018 (CST) ===============
+10:21:34.881443 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:21:34.947645 db@open opening
+10:21:34.949123 version@stat F·[] S·0B[] Sc·[]
+10:21:35.008878 db@janitor F·2 G·0
+10:21:35.008878 db@open done T·61.2337ms
+=============== Jun 29, 2018 (CST) ===============
+10:27:45.744451 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:27:45.744451 version@stat F·[] S·0B[] Sc·[]
+10:27:45.744451 db@open opening
+10:27:45.744953 journal@recovery F·1
+10:27:45.745955 journal@recovery recovering @1
+10:27:45.776634 memdb@flush created L0@2 N·9 S·549B "H' ..\xb6(\x90,v3":"r\x00\x00..\xb6(\x90,v5"
+10:27:45.777611 version@stat F·[1] S·549B[549B] Sc·[0.25]
+10:27:45.824736 db@janitor F·3 G·0
+10:27:45.824736 db@open done T·80.2852ms

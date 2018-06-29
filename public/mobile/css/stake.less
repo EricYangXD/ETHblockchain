@@ -1,0 +1,162 @@
+@import "common.less";
+.pdj_layout{
+     background: @themeColor;
+}
+html,body{
+    height: 100%;
+    background: @mainColor;
+}
+.pjd_header{
+     height: 40px;
+     line-height: 40px;
+     text-align: center;
+     background: #333;
+     color: #fff;
+     position: relative;
+     h3{
+
+     }
+     a{
+          position: absolute;
+          right: 10px;
+          top: 0;
+          height: 40px;
+          line-height: 40px;
+          color: #fff;
+     }
+}
+.pdj_banner{
+     width: 100%;
+     overflow: hidden;
+     height: 30px;
+     line-height: 30px;
+     text-align: center;
+     ul{
+         width: 400px;
+         li{
+             float: left;
+             width:80px;
+             a{
+                 font-size: 14px;
+                 color: #fff;
+             }
+         }
+     }
+}
+.content{
+     font-size: 14px;
+     margin-top: 40px;
+     h3{
+         margin-top: 10px;
+         margin-bottom: 10px;
+         text-align: center;
+         color: #fff;
+         font-weight: normal;
+         font-size: 14px;
+     }
+     ul{
+         overflow: hidden;
+
+         li{
+             width: 23%;
+             margin-left: 1.5%;
+             border: 1px solid #fff;
+             border-radius: 3px;
+             margin-top: 3px;
+             float: left;
+             //height: 60px;
+             //line-height: 60px;
+             text-align: center;
+             color: #fff;
+             background: @mainColor;
+             a{
+                 font-size: 20px;
+                 color: #fff;
+
+             }
+             p{
+                 color: #fff;
+                 font-size: 12px;
+             }
+         }
+     }
+     .chose_number{
+         padding: 30px 0;
+         p{
+             text-align: center;
+             color: #fff;
+             height: 30px;
+             line-height: 30px;
+         }
+         ul{
+             width: 90%;
+             margin-left: 5%;
+             li{
+                 margin-left: 0px;
+                 width: 25%;
+                 height: 30px;
+                 line-height: 30px;
+                 border-radius: 0px;
+             }
+             li:nth-child(1){
+                 border-top-left-radius: 2px;
+                 border-bottom-left-radius: 2px;
+                 border-right: none;
+             }
+             li:nth-child(2){
+                border-right: none;
+             }
+             li:nth-child(3){
+                border-right: none;
+             }
+             li:nth-child(4){
+                border-top-right-radius: 2px;
+                border-bottom-right-radius: 2px;
+             }
+         }
+     }
+}
+.pdj_bottom{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    a{
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        border-radius: 2px;
+        height: 30px;
+        line-height: 30px;
+        border: 1px solid #999;
+         margin-top: 5px;
+    }
+    a:nth-child(1){
+        float: left;
+
+
+        margin-left: 5px;
+
+        width: 60px;
+
+
+    }
+    a:nth-child(2){
+       float: right;
+       margin-right: 10px;
+       background: #f45a20;
+       width: 80px;
+       border: 1px solid #f45840;
+    }
+    a:nth-child(3){
+        float: right;
+        margin-right: 10px;
+        background: #f45a20;
+        width: 80px;
+        border: 1px solid #f45840;
+    }
+}

@@ -1,0 +1,10 @@
+eth.accounts
+miner.start();
+eth.getBalance("0xa47ac22cd6b1763eabd8096705f3124e5673a3a8");
+eth.getBalance("0xfa9133bb93f78c12860880cd69e5e0e5a3fa9333");
+miner.stop();
+miner.start();
+miner.stop();
+miner.start();
+miner.stop();
+exit()

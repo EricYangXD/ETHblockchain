@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  text-decoration: none;
+}
+input {
+  border: none;
+  -webkit-appearance: none;
+  outline: none;
+}
+html,
+body {
+  background: #207047;
+}
+html,
+body {
+  height: 100%;
+  background: #207047;
+}
+.pdj_layout {
+  width: 100%;
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.pdj_layout .pdj_header {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  position: relative;
+}
+.pdj_layout .pdj_header a {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+}
+.pdj_layout .pdj_banner {
+  position: relative;
+  overflow: hidden;
+}
+.pdj_layout .pdj_banner ul {
+  width: 1000%;
+  overflow: hidden;
+}
+.pdj_layout .pdj_banner ul li {
+  width: 10%;
+  float: left;
+}
+.pdj_layout .pdj_banner ul li a {
+  width: 100%;
+  display: block;
+}
+.pdj_layout .pdj_banner ul li a img {
+  width: 100%;
+  display: block;
+}
+.pdj_layout .pdj_banner .point {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  width: 70px;
+  margin-left: -35px;
+}
+.pdj_layout .pdj_banner .point li {
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-left: 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.pdj_layout .pdj_banner .point li:nth-child(1) {
+  margin-left: 0;
+}
+.pdj_layout .login_area {
+  margin: 20px auto;
+}
+.pdj_layout .login_area .login_form div:nth-child(1) {
+  text-align: center;
+}
+.pdj_layout .login_area .login_form div:nth-child(1) input {
+  height: 40px;
+  line-height: 40px;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding-left: 3px;
+}
+.pdj_layout .login_area .login_form div:nth-child(2) {
+  margin-top: 10px;
+  text-align: center;
+}
+.pdj_layout .login_area .login_form div:nth-child(2) input {
+  height: 40px;
+  line-height: 40px;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding-left: 3px;
+}
+.pdj_layout .login_area .login_form div:nth-child(3) {
+  margin-top: 20px;
+}
+.pdj_layout .login_area .login_form div:nth-child(3) a:nth-child(1) {
+  width: 90%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  background: #f49920;
+  border-radius: 2px;
+  margin: 0 auto;
+  display: block;
+  font-size: 14px;
+}
+.pdj_layout .pdj_bottom {
+  height: 50px;
+  line-height: 50px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 5px;
+}
+.pdj_layout .pdj_bottom a {
+  height: 40px;
+  line-height: 40px;
+  width: 45%;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  float: left;
+  text-align: center;
+  background: #f45a20;
+  color: #fff;
+  font-size: 14px;
+}
+.pdj_layout .pdj_bottom a:nth-child(2) {
+  margin-left: 10%;
+}
+/*# sourceMappingURL=login.css.map */

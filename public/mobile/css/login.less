@@ -1,0 +1,141 @@
+@import url("common.less");
+html,body{
+     height: 100%;
+     background: @mainColor;
+}
+.pdj_layout {
+  width: 100%;
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+  .pdj_header {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    position: relative;
+    a {
+      position: absolute;
+      right: 10px;
+      top: 0;
+      height: 40px;
+      line-height: 40px;
+      color: #fff;
+    }
+  }
+  .pdj_banner{
+    position: relative;
+    overflow: hidden;
+    ul{
+      width: 1000%;
+      overflow: hidden;
+      li{
+        width: 10%;
+        float: left;
+        a{
+          width: 100%;
+          display: block;
+          img{
+            width: 100%;
+            display: block;
+          }
+        }
+      }
+    }
+    .point{
+      position: absolute;
+      left: 50%;
+      bottom: 10px;
+      width: 70px;
+      margin-left: -35px;
+      li{
+        width: 10px;
+        height: 10px;
+        float: left;
+        margin-left: 10px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+      }
+      li:nth-child(1){
+        margin-left: 0;
+      }
+    }
+  }
+  .login_area{
+         margin: 20px auto;
+        .login_form{
+
+             div:nth-child(1){
+                text-align: center;
+                input{
+                      height: 40px;
+                      line-height: 40px;
+                      width: 90%;
+                      border: 1px solid #ccc;
+                      border-radius: 3px;
+                      padding-left: 3px;
+                }
+              }
+              div:nth-child(2){
+                margin-top: 10px;
+                text-align: center;
+                input{
+                  height: 40px;
+                  line-height: 40px;
+                  width: 90%;
+                  border: 1px solid #ccc;
+                  border-radius: 3px;
+                  padding-left: 3px;
+                }
+              }
+              div:nth-child(3){
+                  margin-top: 20px;
+                  a:nth-child(1) {
+                        width: 90%;
+                        height: 40px;
+                        line-height: 40px;
+                        text-align: center;
+                        color: #fff;
+                        background: #f49920;
+                        border-radius: 2px;
+                        margin: 0 auto;
+                        display: block;
+                        font-size: 14px;
+                  }
+             }
+        }
+  }
+
+  .pdj_bottom{
+       height: 50px;
+       line-height: 50px;
+       position: fixed;
+       width: 100%;
+       left: 0;
+       bottom: 0;
+       padding: 5px;
+       a{
+         height: 40px;
+         line-height: 40px;
+         width: 45%;
+         border: 1px solid #ccc;
+         border-radius: 2px;
+         float: left;
+         text-align: center;
+         background: #f45a20;
+         color: #fff;
+         font-size: 14px;
+
+       }
+       a:nth-child(1){
+
+       }
+       a:nth-child(2){
+          margin-left: 10%;
+       }
+  }
+}
+
+

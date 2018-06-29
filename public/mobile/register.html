@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0"/>
+    <title>柏链道捷快三体育彩票</title>
+    <link rel="stylesheet" href="css/register.css">
+    <!--zepto.js 构建-->
+    <script src="./assets/zepto-master/src/zepto.js"></script>
+    <script src="./assets/zepto-master/src/event.js"></script>
+    <script src="./assets/zepto-master/src/ajax.js"></script>
+    <script src="./assets/zepto-master/src/form.js"></script>
+    <script src="./assets/zepto-master/src/ie.js"></script>
+</head>
+<body>
+<div class="pdj_layout">
+    <div class="pdj_header">
+        <h3>快三</h3>
+        <a href="javascript:;">注册</a>
+    </div>
+    <div class="pdj_banner">
+        <ul>
+            <li><a href="javascript:;"><img src="images/banner_1.png" alt=""></a></li>
+            <!--<li><a href="javascript:;"><img src="images/banner_2.jpg" alt=""></a></li>-->
+            <!--<li><a href="javascript:;"><img src="images/banner_3.jpg" alt=""></a></li>-->
+            <!--<li><a href="javascript:;"><img src="images/banner_1.png" alt=""></a></li>-->
+        </ul>
+        <ul class="point">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="register_area">
+        <form action="" class="login_register">
+            <div><input type="text" placeholder="邮箱/手机/账号" name="username"></div>
+            <div><input type="password" placeholder="密码" name="password"></div>
+            <div>
+                <a href="javascript:;" class="register_btn">注册</a>
+                <a href="javascript:;">登录</a>
+            </div>
+        </form>
+    </div>
+</div>
+    <script>
+          $(function(){
+
+                var pdj={
+                     init:function(){
+                           this.initRegisterEvent();
+                     },
+                     initRegisterEvent:function(){
+                         $(".register_btn").on("click",pdj.register)
+                     },
+                     register:function(){
+                         //表单数据.
+                         var formData=$(".login_register").serialize();
+                         $.ajax({
+                             url:"/user/register",
+                             data:formData,
+                             type:"POST",
+                             success:function(data) {
+
+                             }
+                         });
+                     }
+                }
+                pdj.init();
+          });
+    </script>
+</body>
+</html>
+

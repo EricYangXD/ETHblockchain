@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  text-decoration: none;
+}
+input {
+  border: none;
+  -webkit-appearance: none;
+  outline: none;
+}
+html,
+body {
+  background: #207047;
+}
+html,
+body {
+  height: 100%;
+  background: #207047;
+}
+.pdj_layout {
+  width: 100%;
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.pdj_layout .pdj_header {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  position: relative;
+}
+.pdj_layout .pdj_header a {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+}
+.pdj_layout .pdj_banner {
+  position: relative;
+  overflow: hidden;
+}
+.pdj_layout .pdj_banner ul {
+  width: 1000%;
+  overflow: hidden;
+}
+.pdj_layout .pdj_banner ul li {
+  width: 10%;
+  float: left;
+}
+.pdj_layout .pdj_banner ul li a {
+  width: 100%;
+  display: block;
+}
+.pdj_layout .pdj_banner ul li a img {
+  width: 100%;
+  display: block;
+}
+.pdj_layout .pdj_banner .point {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  width: 70px;
+  margin-left: -35px;
+}
+.pdj_layout .pdj_banner .point li {
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-left: 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.pdj_layout .pdj_banner .point li:nth-child(1) {
+  margin-left: 0;
+}
+.pdj_layout .register_area {
+  margin-top: 20px;
+}
+.pdj_layout .register_area .login_register div {
+  text-align: center;
+}
+.pdj_layout .register_area .login_register div input {
+  width: 90%;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  border-radius: 3px;
+  padding-left: 5px;
+}
+.pdj_layout .register_area .login_register div:last-of-type {
+  padding: 10px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+.pdj_layout .register_area .login_register div:last-of-type a {
+  width: 45%;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  float: left;
+  border-radius: 4px;
+}
+.pdj_layout .register_area .login_register div:last-of-type a:nth-child(1) {
+  margin-right: 10%;
+  background: #e92322;
+}
+.pdj_layout .register_area .login_register div:last-of-type a:nth-child(2) {
+  background: #e92322;
+}
+/*# sourceMappingURL=register.css.map */
