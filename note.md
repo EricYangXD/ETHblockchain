@@ -237,4 +237,54 @@ wx.request({
         });
     }
 });
+
+```
+### Git操作命令
+```
+
+下面的这两行命令就是设置用户名和email：
+git config --global user.name "author" #将用户名设为author
+git config --global user.email "author@corpmail.com" #将用户邮箱设为author@corpmail.com
+
+# Git的配置信息分为全局和项目两种，上面命令中带了“--global"参数，这就意味是在进行全局配置，它会影响本机上的每个一个Git项目。
+
+# 如果大家对于Git熟悉后，可以在git bash中直接修改“~/.gitconfig”，“.git/config”这两个文件进行配置。
+
+git clone git@github.com:512439130/512439130.github.io.git (http,在你的download下复制) 
+
+git clone https://github.com/512439130/512439130.github.io.git  （ssh，同理）
+
+//将工作文件修改提交到本地暂存区
+git add <文件名.后缀>
+git add .  //当前仓库下所有更新的文件
+
+//删除本地，并将任务提交到缓存区
+git rm <文件名.后缀>
+
+//查看项目状态（未提交）
+git status  
+
+//准备提交
+git commit -m "更新记录（此处随便写，就是记录你更新的日志）"
+
+//正式提交
+git push 
+
+//查看更新日志
+git log
+
+//更新远程仓库到本地
+git pull
+
+//将HTTPS改为ssh方式
+git remote rm origin    //删除http
+git remote add origin git@github.com:sosout/myblog.git   //添加shh
+git push origin   //执行你的更改
+//或
+git remote set-url origin git@github.com:EricYangXD/ETHblockchain.git
+
+//添加你的SSH公钥（email是你github注册账号的邮箱）
+ssh-keygen -t rsa -C “email”   
+
+
 ```
